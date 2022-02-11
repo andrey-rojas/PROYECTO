@@ -1,0 +1,304 @@
+body{
+    font-family: 'Lobster', cursive;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background: black;
+    font-family: 'Lobster', cursive;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li a{
+    display: inline;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+.carrito{
+    float: right;
+    font-family: 'Lobster', cursive;
+}
+
+.carrito-active{
+    background: white;
+    font-family: 'Lobster', cursive;
+}
+.carrito-active a{
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+main{
+    margin: 10px auto;
+    width: 1325px;
+    font-family: 'Lobster', cursive;
+}
+
+.articulo{
+    display: inline-block;
+    padding: 15px 50px 15px 70px;
+    vertical-align: top;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    width: 200px;
+}
+.articulo div{
+    padding: 5px 0;
+    font-family: 'Lobster', cursive;
+}
+.articulo .imagen img{
+    height: 300px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.articulo .titulo{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Lobster', cursive;
+}
+button{
+    border: 0;
+    border-radius: 5px;
+    background: rgb(255, 47, 10);
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+.botones :hover {
+    background-color: #075aa8;
+    font-family: 'Lobster', cursive;
+}
+
+#carrito-container{
+    width: 350px;
+    background: white;
+    border: solid 1px #000;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    display: none;
+}
+
+#tabla .fila{
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-family: 'Lobster', cursive;
+}
+
+#tabla .fila .imagen{
+    float:right;
+    display: flex;
+    margin-right: 100px;
+    width: 00px;
+    font-family: 'Lobster', cursive;
+
+
+}
+#tabla .fila .info{
+    box-sizing: border-box;
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top;
+    font-family: 'Lobster', cursive;
+    width: 200px;
+}
+
+#tabla .fila .info .nombre{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+}
+#tabla .fila .info .botones{
+    padding: 20px 0 0 0;
+    font-family: 'Lobster', cursive;
+}
+
+#tabla p{
+    font-size: 20px !important;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-nuestro-producto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+}
+.contenedor-nuestro-producto .parrafo-textos {
+    width: 48%;
+    padding-top: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+.titulo2 {
+    padding: 0px 10px 60px 0;
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0;
+}
+.titulo2{
+
+    color:rgb(114, 126, 89) ;
+   
+    font-family: 'Lobster', cursive;
+}
+.contenedor-nuestro-producto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+}
+.contenedor-nuestro-producto img{
+    width: 350px;
+    height: 350px;
+    font-family: 'Lobster', cursive;
+}
+.img-producto {
+    width: 38%;
+}
+.contenedor-nuestro-producto .parrafo-textos {
+    width: 48%;
+    padding-top: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+.titulo2{
+
+    color: #075aa8;
+    
+    font-family: 'Lobster', cursive;
+}
+.parrafo-textos h3 {
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+.parrafo-textos h3 span {
+    background: #9faf09 ;
+    color: #fff;
+    border-radius: 50%;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+    margin-right: 8px;
+    font-family: 'Lobster', cursive;
+}
+.parrafo-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    font-family: 'Lobster', cursive;
+    text-align: justify;
+}
+.img-producto {
+    width: 38%;
+    font-family: 'Lobster', cursive;
+}
+.nuestros-servicios {
+    background: #ffffff;
+    padding-bottom: 30px;
+    font-family: 'Lobster', cursive;
+    
+}
+.titulo3 {
+    padding: 40px 10px;
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.titulo3{
+
+     color: #075aa8;
+    
+    font-family: 'Lobster', cursive;
+}
+
+
+
+footer {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /*fondo descanecido*/
+    padding: 20px 0 30px 0;
+    margin: auto;
+    /*centra todo*/
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+}
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    /* reparte los elementos equitativamente*/
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #CCC;
+    font-family: 'Lobster', cursive;
+}
+.content-foo {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.content-foo h4 {
+    text-align: center;
+    color: #ffff;
+    border-bottom: 3px solid rgb(11, 130, 160);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+.content-foo img {
+    
+    width: 200px;
+    height:200px;
+
+}
+.content-foo p {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}

@@ -1,0 +1,83 @@
+body {
+    font-family: 'Lobster', cursive;
+}
+footer {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /*fondo descanecido*/
+    padding: 20px ;
+    margin: auto;
+    /*centra todo*/
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+    
+}
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    /* reparte los elementos equitativamente*/
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #CCC;
+    height:550px;
+    padding: 0px;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+}
+.content-foo {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.content-foo h4 {
+    text-align: center;
+    color: #ffff;
+    border-bottom: 3px solid rgb(11, 130, 160);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+.content-foo img {
+    
+    width: 200px;
+    height:200px;
+    font-family: 'Lobster', cursive;
+
+}
+.content-foo p {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+.titulo-final {
+    text-align: center;
+    font-size:30px;
+    margin: 20px ;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+nav {
+    text-align: left;
+    padding: 0px 50px 0 30px;
+}
+nav .nav2 {
+    text-align: center;
+    padding: 0px 50px 0 30px;
+}
+nav>a {
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    /*Le quita el subrayado en la parte de abajo*/
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: lobster ;
+}
+nav>a:hover {
+    /* cuando pase por encima de cada opción a saque un subrayado*/
+    text-decoration: underline;
+    /*Le quita el subrayado en la parte de abajo*/
+    color: rgb(52, 19, 201);
+}
+

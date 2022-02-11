@@ -1,0 +1,86 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(
+      25deg,
+      rgba(66, 230, 149, 1),
+      rgba(66, 32, 149, 1)
+    );
+    background-repeat: no-repeat;
+    background-size: 200%;
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    color: #131212;
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 40px -5px;
+    position: relative;
+}
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+    border-radius: 05px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+.galeria img :before {
+    content: url(imagenes/ojo_1.jpg);
+    position: absolute;
+}
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: rgb(70, 68, 68);
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    font-family: 'Lobster', cursive;
+}
+
+.galeria .col {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .materialbox-caption {
+         width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption {
+         width: 70%;
+    }
+}

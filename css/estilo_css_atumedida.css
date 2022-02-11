@@ -1,0 +1,636 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lobster', cursive;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    /*Cuando se disminuye la resolución hace que la caja o recuadro no se salga de la pantalla*/
+    margin: auto;
+    /*hace que centre todo el contenido*/
+    overflow: hidden;
+    /* Cuando una imagen o texto se sale del recuadro la achica */
+    
+}
+
+.contenedor2 {
+    width: 90%;
+    max-width: 1000px;
+    /*Cuando se disminuye la resolución hace que la caja o recuadro no se salga de la pantalla*/
+    margin: auto;
+    /*hace que centre todo el contenido*/
+    overflow: hidden ;
+    /* Cuando una imagen o texto se sale del recuadro la achica */
+    background: #fff
+}
+
+.titulo {
+    padding: 40px 10px;
+    color: #d42d2d;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    font-family: lobster ;
+}
+.titulo2 {
+    padding: 90px 10px 60px 0;
+    color:  #d42d2d;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: lobster ;
+}
+.titulo3 {
+    padding: 50px 10px 60px 0;
+    color: #d42d2d;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: lobster ;
+}
+/* HEADER*/
+
+.textos-encabezado {
+    width: 100%;
+    height: 620px;
+    background: #bb3834;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(175, 61%, 43%, 0.459), hsla(140, 76%, 33%, 0.678)), url(../img/COLLAGE.jpeg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(61, 82%, 22%, 0.459), hsla(4, 91%, 9%, 0.678)), url(../img/COLLAGE.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+
+nav>a {
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    /*Le quita el subrayado en la parte de abajo*/
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: lobster ;
+}
+nav>a:hover {
+    /* cuando pase por encima de cada opción a saque un subrayado*/
+    text-decoration: underline;
+    /*Le quita el subrayado en la parte de abajo*/
+    color: #820000;
+}
+.wave {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+.wave {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    
+}
+
+ .textos-encabezado {
+    display: flex;
+    height: 630px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-encabezado h1 {
+    font-size: 80px;
+    color: #caae0b;
+    -webkit-text-stroke: 0.2px black;
+    
+    font-family: lobster ;
+}
+.textos-encabezado h2 {
+    padding: 30px;
+    font-size: 60px;
+    font-weight: 300px;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+    
+    font-family: lobster ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Sección nuestros productos*/
+
+.contenedor-nuestro-producto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.img-producto {
+    width: 40%;
+    
+}
+.img-producto>img {
+    padding: 20px 35px 5px;
+}
+.contenedor-nuestro-producto .parrafo-textos {
+    width: 48%;
+    padding-top: 0;
+    margin: 0;
+}
+
+
+.parrafo-textos2 p {
+    padding: 40px 0px 30px 10px;
+    font-weight: 300;
+    text-align: left;
+    font-size: 20px;
+    font-family: lobster ;
+    text-decoration: none;
+
+}
+
+nav>p,a {
+    color: rgb(11, 179, 87);
+    font-weight: 800;
+    text-decoration: none;
+    /*Le quita el subrayado en la parte de abajo*/
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: lobster ;
+}
+nav>p:hover {
+    /* cuando pase por encima de cada opción a saque un subrayado*/
+    text-decoration: underline;
+    /*Le quita el subrayado en la parte de abajo*/
+    color:#820000;
+}
+.parrafo-textos p {
+    padding: 40px 0px 30px 10px;
+    font-weight: 300;
+    text-align: left;
+    font-size: 20px;
+    font-family: lobster ;
+    text-decoration: none;
+    color:#000
+}
+
+/*portafolio*/
+
+.portafolio {
+    background: #fff
+}
+.galeria-imagenes {
+    display: flex;
+    /*Distribuye las imagenes en el espacio de la caja disponible verticalemente*/
+    justify-content: space-evenly;
+    /* DIstribuye las imagenes horizontalmente*/
+    flex-wrap: wrap;
+    
+}
+
+.imagen-port {
+    /* Trabajo con las fotos*/
+    width: 50%;
+    padding: 20px 20px 20px 20px ;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 0px #fff(8, 63, 165, 0.5);
+                }
+ *  {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+}
+                
+                html {
+                    font-size: 13px;
+                    line-height: 1;
+                }
+                
+                p,a {
+                    font-size: 15px;
+                    font-size: 1.5rem;    
+                    line-height: 1.333333334;
+                    margin-bottom: 20px;
+                    margin-bottom: 2rem;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+                    color: #000;
+                }
+                p,a {
+                    color: #000;
+                    font-weight: 800;
+                    text-decoration: none;
+                    /*Le quita el subrayado en la parte de abajo*/
+                    margin-right: 10px;
+                    font-size: 20px;
+                    font-family: lobster ;
+                }
+                p,a:hover {
+                    /* cuando pase por encima de cada opción a saque un subrayado*/
+                    text-decoration: underline;
+                    /*Le quita el subrayado en la parte de abajo*/
+                    color: #820000;
+                    text-decoration: none;
+                    /*Le quita el subrayado en la parte de abajo*/
+                }
+                
+                .three-columns {
+                    
+                    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                    -moz-column-count: 2; /* Firefox */
+                    column-count: 2;
+                }
+
+.imagen-port2 {
+    /* Trabajo con las fotos*/
+    width: 50%;
+    margin-bottom: 10px ;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    padding: 0 30px 0 0;
+}
+.imagen-port2>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: table-column;
+}
+
+.imagen-port>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: table-column;
+    
+}
+
+
+/* Efecto al ubicarse encima de la imagen*/
+
+.hover-galeria>img {
+    /* titulo nuestro trabajo */
+    position: absolute;
+    
+    width: 100;
+    height: 80;
+    top: 20px;
+    transform: scale(1);
+    background: hsla(373, 91%, 27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hover-galeria img {
+    width: 50px;
+    
+    
+    
+}
+
+.hover-galeria p {
+    color: #fff;
+}
+.imagen-port:hover .hover-galeria {
+    /*desaparece el dibujo cuando me ubico encima de la imagen*/
+    transform: scale(0);
+    
+}
+
+    
+
+/*clientes*/
+
+.clientes-contenedor {
+    background: #fff;
+    padding-bottom: 20px;
+}
+.cuadro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px
+}
+.cuadro .card {
+    background:#eed09d;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    flex-wrap: wrap;
+    margin-bottom: 20px
+    
+}
+.cuadro .card img {
+    width: 100px;
+    height: 100px; 
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: table-column;
+    
+    
+}
+.contenido-texto-cards {
+    width: 80%;
+    color: #000;
+}
+.card>.contenido-texto-cards h4 {
+    width: 80%;
+    color: #722F37;
+    text-align: left;
+    font-family: lobster ;
+    font-size: 20px;
+}
+.card>.contenido-texto-cards p {
+    font-weight: 300;
+    padding: 5px 10px;
+    color: #000000;
+    text-align: left;
+    font-family: lobster ;
+     font-size: 15px;
+    
+}
+/*Nuestros servicios*/
+
+.nuestros-servicios {
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+.servicio-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servicio-ind {
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+}
+.servicio-ind img {
+    width: 300px;
+    height: 300px;
+}
+.servicio-ind h3 {
+    margin: 10px 0;
+}
+.servicio-ind p {
+    font-weight: 300;
+    text-align: justify;
+    padding: 5px 20px;
+}
+.marquee {
+    width: 100%;
+  }
+   
+  .marquee img {
+    width: 270px;
+    position: center;
+  }
+   
+  .title {
+    font-size: 18pt;
+    position: center;
+    bottom: 0;
+    left: 140px;
+    
+  }
+  .cont {
+    position: relative;
+    display: inline-block;
+    padding: 0px 50px;
+  }
+/*FOOTER*/
+
+footer {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /*fondo descanecido*/
+    padding: 20px 0 30px 0;
+    margin: auto;
+    /*centra todo*/
+    overflow: hidden;
+}
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    /* reparte los elementos equitativamente*/
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #CCC;
+}
+.content-foo {
+    text-align: center;
+}
+.content-foo h4 {
+    text-align: center;
+    color: #ffff;
+    border-bottom: 3px solid rgb(11, 130, 160);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.content-foo img {
+    
+    width: 200px;
+    height:200px;
+
+}
+.content-foo p {
+    color: #fff;
+}
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    background: #ffffff;
+  }
+  .checkbox {
+    display: none;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+    
+  }
+  .header-container {
+    width: 90%;
+    position: relative;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .header-logo {
+    width: 3rem;
+    
+    
+  }
+  .btn-label {
+    width: 2rem;
+    height: 0.4rem;
+    
+  }
+  .header-button {
+    width: 2rem;
+    height: 0.2rem;
+    background: #000;
+    position: absolute;
+    top: 1.9rem;  
+    transition: all 0.2s;
+  }
+  .header-button::before,
+  .header-button::after {
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    background: #000;
+    position: absolute;
+    top: -0.6rem;
+    transition: all 0.2s;
+  }
+  .header-button::after {
+    top: 0.6rem;
+    
+  }
+  .menu {
+      
+    background: #ffffff;
+    width: 100%;
+    height: 10rem;
+    position: fixed;
+    z-index: 10;
+    top: -12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 2rem;
+    transition: all 0.5s;
+  }
+  ul {
+    
+    list-style: none;
+  }
+  li {
+   
+    margin: 0.1rem;
+  }
+   a {
+    
+    text-decoration: none;
+  }
+  .checkbox:checked ~ .menu {
+    background: #fff;
+    top: 0px;
+  }
+  .checkbox:checked + header .header-container label .header-button {
+    background: none;
+  }
+  .checkbox:checked + header .header-container label .header-button::before {
+    transform: rotate(35deg);
+    top: 0;
+  }
+  .checkbox:checked + header .header-container label .header-button::after {
+    transform: rotate(-35deg);
+    top: 0;
+  }
+  
+  
+  .icon-facebook img {
+    width: 25px;
+    height: 25px;
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

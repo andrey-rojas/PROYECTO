@@ -1,0 +1,457 @@
+body{
+    font-family: 'Lobster', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background: black;
+    font-family: 'Lobster', cursive;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li a{
+    display: inline;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+.carrito{
+    float: right;
+    font-family: 'Lobster', cursive;
+}
+
+.carrito-active{
+    background: white;
+    font-family: 'Lobster', cursive;
+}
+.carrito-active a{
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+main{
+    margin: 10px auto;
+    width: 1325px;
+    font-family: 'Lobster', cursive;
+}
+
+.articulo{
+    display: inline-block;
+    padding: 15px 50px 15px 70px;
+    vertical-align: top;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    width: 200px;
+}
+.articulo div{
+    padding: 5px 0;
+    font-family: 'Lobster', cursive;
+}
+.articulo .imagen img{
+    height: 300px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.articulo .titulo{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Lobster', cursive;
+}
+button{
+    border: 0;
+    border-radius: 5px;
+    background: rgb(255, 47, 10);
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+.botones :hover {
+    background-color: #075aa8;
+    font-family: 'Lobster', cursive;
+}
+
+#carrito-container{
+    width: 350px;
+    background: white;
+    border: solid 1px #000;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    display: none;
+}
+
+#tabla .fila{
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-family: 'Lobster', cursive;
+}
+
+#tabla .fila .imagen{
+    float:right;
+    display: flex;
+    margin-right: 100px;
+    width: 00px;
+    font-family: 'Lobster', cursive;
+
+
+}
+#tabla .fila .info{
+    box-sizing: border-box;
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top;
+    font-family: 'Lobster', cursive;
+    width: 200px;
+}
+
+#tabla .fila .info .nombre{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+}
+#tabla .fila .info .botones{
+    padding: 20px 0 0 0;
+    font-family: 'Lobster', cursive;
+}
+
+#tabla p{
+    font-size: 20px !important;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-nuestro-producto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+}
+.contenedor-nuestro-producto .parrafo-textos {
+    width: 48%;
+    padding-top: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+.titulo2 {
+    padding: 0px 10px 60px 0;
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0;
+}
+.titulo2{
+
+    color:rgb(114, 126, 89) ;
+   
+    font-family: 'Lobster', cursive;
+}
+.contenedor-nuestro-producto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+}
+.contenedor-nuestro-producto img{
+    width: 350px;
+    height: 350px;
+    font-family: 'Lobster', cursive;
+}
+.img-producto {
+    width: 38%;
+}
+.contenedor-nuestro-producto .parrafo-textos {
+    width: 48%;
+    padding-top: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+.titulo2{
+
+    color: #075aa8;
+    
+    font-family: 'Lobster', cursive;
+}
+.parrafo-textos h3 {
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+.parrafo-textos h3 span {
+    background: #9faf09 ;
+    color: #fff;
+    border-radius: 50%;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 1);
+    margin-right: 8px;
+    font-family: 'Lobster', cursive;
+}
+.parrafo-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    font-family: 'Lobster', cursive;
+    text-align: justify;
+}
+.img-producto {
+    width: 38%;
+    font-family: 'Lobster', cursive;
+}
+.nuestros-servicios {
+    background: #ffffff;
+    padding-bottom: 30px;
+    font-family: 'Lobster', cursive;
+    
+}
+.titulo3 {
+    padding: 40px 10px;
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.titulo3{
+
+     color: #075aa8;
+    
+    font-family: 'Lobster', cursive;
+}
+
+
+
+footer {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /*fondo descanecido*/
+    padding: 20px 0 30px 0;
+    margin: auto;
+    /*centra todo*/
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+}
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    /* reparte los elementos equitativamente*/
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #CCC;
+    font-family: 'Lobster', cursive;
+}
+.content-foo {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.content-foo h4 {
+    text-align: center;
+    color: #ffff;
+    border-bottom: 3px solid rgb(11, 130, 160);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+.content-foo img {
+    
+    width: 200px;
+    height:200px;
+
+}
+.content-foo p {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background:#212121;
+border-right:1px solid #e5e5e5;
+position:fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:35px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#999;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+  
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:160px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:200px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+.area {
+float: top;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
